@@ -8,6 +8,10 @@ import os
 import re
 from datetime import datetime, timezone
 from importlib.metadata import version
+<<<<<<< HEAD
+=======
+from packaging.version import Version
+>>>>>>> c233549 (Adjust test for new MNE behavior)
 
 import mne
 import numpy as np
